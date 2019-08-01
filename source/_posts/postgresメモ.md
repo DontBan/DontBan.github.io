@@ -4,9 +4,16 @@ date: 2019-07-18 04:57:10
 tags: PostgreSQL
 ---
 
-## データベース作り直し
+## データベースログイン
+デフォルトのユーザ postgres でログインする。
+exitでログアウトできる。
 ```console
 sudo su - postgres
+```
+
+## データベース作り直し
+データベースを削除して、データベースを作成する。
+```console
 psql database データベース名; create database データベース名;
 ```
 
