@@ -24,3 +24,10 @@ psql データベース名
 select * from テーブル名;
 ```
 psql データベース名 で接続する。\qで抜ける。
+
+## データベース一覧
+```console
+sudo su - postgres
+psql -l
+```
+psqlのプロンプトではバックスラッシュl(エル)
